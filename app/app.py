@@ -28,6 +28,9 @@ def favorite_colors() -> List[Dict]:
 def index() -> str:
     return json.dumps({'favorite_colors': favorite_colors()})
 
+@app.route('/colors')
+def colors() -> str:
+    return "<h1>I Love Colors</h1>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

@@ -2,6 +2,6 @@ This Assignment is inspired by this tutorial [Tutorial](https://stavshamir.githu
 
 Read the tutorial for a full explanation.
 
-Watch my video for how to set this up in PyCharm [Here]()
+Watch my video for how to set this up in PyCharm [Here](https://youtu.be/9Oq8u0gYCfg)
 
 After you complete this tutorial you will have Python, Flask, and MySQL setup to use with PyCharm.
