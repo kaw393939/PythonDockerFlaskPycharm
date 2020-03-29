@@ -2,6 +2,7 @@ version: "2"
 services:
   app:
     build: ./app
+    container_name: "Flask_App"
     links:
       - db
     ports:
@@ -9,6 +10,7 @@ services:
 
   db:
     image: mysql:5.7
+    container_name: "MySQL_Database"
     ports:
       - "32000:3306"
     environment:

@@ -1,3 +1,9 @@
+#Project Description
+#Docker File Command Definitions
+#Docker Compose Command Definitions
+#Install Instruction usingX PyCharm
+
+
 This Assignment is inspired by this tutorial [Tutorial](https://stavshamir.github.io/python/dockerizing-a-flask-mysql-app-with-docker-compose/)
 
 Read the tutorial for a full explanation.
