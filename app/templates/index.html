@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">City Name</th>
+        <th scope="col">Lattitude</th>
+        <th scope="col">Longitude</th>
+        <th scope="col">Country</th>
+        <th scope="col">Abbreviation</th>
+        <th scope="col">Capital Status</th>
+        <th scope="col">Population</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for city in cities %}
+    <tr>
+        <td>{{ city.fldName }}</td>
+        <td>{{ city.fldLat }}</td>
+        <td>{{ city.fldLong }}</td>
+        <td>{{ city.fldCountry }}</td>
+        <td>{{ city.fldAbbreviation }}</td>
+        <td>{{ city.fldCapitalStatus }}</td>
+        <td>{{ city.fldPopulation }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
