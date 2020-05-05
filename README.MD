@@ -1,13 +1,18 @@
 # Project Description
 This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
+
 ## Assignments
 * [Assignment 1](PPFSQL-Homework.pdf)
 * [Assignment 2](flask_bootstrap_templates.pdf)
-* [Assignment 3]()
+* [Assignment 3](formIntro-pycharm.pdf)
 
 ## Videos
 * [Video 1 - Assignment 1](https://youtu.be/QbMWNgrfAFg)
 * [Video 2 - Assignment 2](https://youtu.be/tylzleJDlkc)
+* [Video 3 - Assignment 3](https://youtu.be/5WBYxNZz8Zw)
+* [Video 4 - REST API Part 1](https://youtu.be/E1Xk5dk3Abc)  Note this is a general video I use for another class and is about the concept of REST API and is not specific to python.  The 3rd Video of this part is the specific for python
+* [Video 5 - REST API Part 2](https://youtu.be/LGNkFTE3DI8)
+* [Video 6 - Assignment 4 Project Video]()
 
 ## Assignment 1 Readings
 * [What is an HTTP API?](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
@@ -21,6 +26,10 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 * [Getting started and Reference for Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 * [Tutorials this is based on:](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
 * [Documentation for Flask Templates](https://flask.palletsprojects.com/en/1.1.x/tutorial/templates/)
+
+## Assignment 3 Readings
+* [More about Jinja Flask Templates](https://realpython.com/primer-on-jinja-templating/)
+* [Reference for Python MySQL - Note: We Use this with flask and on line 53 you can see how to adapt it to connect to the database connection through flask's single connection to mysql](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 
 # Useful Links
 * [Flask Homepage and Documentation](https://flask.palletsprojects.com/en/1.1.x/)
