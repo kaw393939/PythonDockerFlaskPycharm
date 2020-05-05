@@ -98,22 +98,6 @@ def api_retrieve(city_id) -> str:
     return resp
 
 
-@app.route('/api/v1/cities', methods=['POST'])
-def api_add() -> str:
-
-    content = request.json
-
-    cursor = mysql.get_db().cursor()
-    inputData = (content['fldName'], content['fldLat'], content['fldLong'],
-                 content['fldCountry'], content['fldAbbreviation'],
-                 content['fldCapitalStatus'], request.form.get('fldPopulation'))
-    sql_insert_query = """INSERT INTO tblCitiesImport (fldName,fldLat,fldLong,fldCountry,fldAbbreviation,fldCapitalStatus,fldPopulation) VALUES (%s, %s,%s, %s,%s, %s,%s) """
-    cursor.execute(sql_insert_query, inputData)
-    mysql.get_db().commit()
-    resp = Response(status=201, mimetype='application/json')
-    return resp
-
-
 @app.route('/api/v1/cities/<int:city_id>', methods=['PUT'])
 def api_edit(city_id) -> str:
     cursor = mysql.get_db().cursor()
@@ -128,6 +112,20 @@ def api_edit(city_id) -> str:
     resp = Response(status=200, mimetype='application/json')
     return resp
 
+@app.route('/api/v1/cities', methods=['POST'])
+def api_add() -> str:
+
+    content = request.json
+
+    cursor = mysql.get_db().cursor()
+    inputData = (content['fldName'], content['fldLat'], content['fldLong'],
+                 content['fldCountry'], content['fldAbbreviation'],
+                 content['fldCapitalStatus'], request.form.get('fldPopulation'))
+    sql_insert_query = """INSERT INTO tblCitiesImport (fldName,fldLat,fldLong,fldCountry,fldAbbreviation,fldCapitalStatus,fldPopulation) VALUES (%s, %s,%s, %s,%s, %s,%s) """
+    cursor.execute(sql_insert_query, inputData)
+    mysql.get_db().commit()
+    resp = Response(status=201, mimetype='application/json')
+    return resp
 
 @app.route('/api/v1/cities/<int:city_id>', methods=['DELETE'])
 def api_delete(city_id) -> str:

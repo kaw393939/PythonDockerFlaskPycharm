@@ -5,6 +5,8 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 * [Assignment 1](PPFSQL-Homework.pdf)
 * [Assignment 2](flask_bootstrap_templates.pdf)
 * [Assignment 3](formIntro-pycharm.pdf)
+* [Assignment 4](restIntro-pycharm.pdf)
+
 
 ## Videos
 * [Video 1 - Assignment 1](https://youtu.be/QbMWNgrfAFg)
@@ -12,7 +14,7 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 * [Video 3 - Assignment 3](https://youtu.be/5WBYxNZz8Zw)
 * [Video 4 - REST API Part 1](https://youtu.be/E1Xk5dk3Abc)  Note this is a general video I use for another class and is about the concept of REST API and is not specific to python.  The 3rd Video of this part is the specific for python
 * [Video 5 - REST API Part 2](https://youtu.be/LGNkFTE3DI8)
-* [Video 6 - Assignment 4 Project Video]()
+* [Video 6 - Assignment 4 Project Video](https://youtu.be/bfAW4vOdz7Q)
 
 ## Assignment 1 Readings
 * [What is an HTTP API?](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
