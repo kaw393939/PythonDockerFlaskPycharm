@@ -5,17 +5,17 @@
     <h5 class="card-title">{{ city.fldName }} - {{ city.fldAbbreviation }}</h5>
 
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">{{ city.fldLat }}</li>
-        <li class="list-group-item">{{ city.fldLong }}</li>
-        <li class="list-group-item">{{ city.fldCapitalStatus }}</li>
-        <li class="list-group-item">{{ city.fldCountry }}</li>
-        <li class="list-group-item">{{ city.fldPopulation }}</li>
+        <li class="list-group-item">Latitude: {{ city.fldLat }}</li>
+        <li class="list-group-item">Longitude: {{ city.fldLong }}</li>
+        <li class="list-group-item">Capital Status: {{ city.fldCapitalStatus }}</li>
+        <li class="list-group-item">Country: {{ city.fldCountry }}</li>
+        <li class="list-group-item">Population: {{ city.fldPopulation }}</li>
     </ul>
     <div class="card-body">
         <a href="/edit/{{city.id}}" class="card-link btn btn-primary">edit</a>
     </div>
 </div>
-<form action="/delete/{{city.id}}" method="post"><button type="submit" class="btn btn-danger">Save</button></form>
+<form action="/delete/{{city.id}}" method="post"><button type="submit" class="btn btn-danger">Delete</button></form>
 
 
 {% endblock %}
