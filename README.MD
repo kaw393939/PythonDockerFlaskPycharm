@@ -1,20 +1,11 @@
 # Project Description
 This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
 ## Assignments
-* [Assignment 1](PPFSQL-Homework.pdf)
 * [Assignment 2](flask_bootstrap_templates.pdf)
 
 ## Videos
-* [Video 1 - Assignment 1](https://youtu.be/QbMWNgrfAFg)
-* [Video 2 - Assignment 2](https://youtu.be/tylzleJDlkc)
+* [Video - Assignment 2](https://youtu.be/tylzleJDlkc)
 
-## Assignment 1 Readings
-* [What is an HTTP API?](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
-* [What is JSON?](https://www.w3schools.com/whatis/whatis_json.asp)
-* [What is SQL?](http://www.sqlcourse.com/intro.html)
-* [What is MySQL](https://www.hostinger.com/tutorials/what-is-mysql)
-* [What is Docker Compose?](https://www.tutorialspoint.com/docker/docker_compose.htm)
-* [What is Flask?](https://en.wikipedia.org/wiki/Flask_(web_framework))
 
 ## Assignment 2 Readings
 * [Getting started and Reference for Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
