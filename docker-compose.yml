@@ -3,6 +3,8 @@ services:
   app:
     build: ./app
     container_name: "Flask_App"
+    links:
+      - db
     depends_on:
       - db
     ports:
